@@ -36,6 +36,21 @@ p{
     background: #f4f4f4;
     color: #333;
 }
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background:#f4f4f4;
+    color: #333;
+}
+.bg-primary{
+    background:#f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
 #navbar{
     background-color: #333;
     color: #fff;
@@ -75,7 +90,6 @@ p{
 #showcase{
     background: url('../image_resources/showcase.jpg') no-repeat center center/cover;
     height: 600px;
-
 }
 #showcase .showcase-content{
     color: #fff;
@@ -89,4 +103,42 @@ p{
 #showcase .showcase-content p{
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../image_resources/photo-1.jpg');
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+/* footer */
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
 }
