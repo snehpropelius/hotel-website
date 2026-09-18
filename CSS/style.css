@@ -53,6 +53,7 @@ p{
 }
 .l-heading{
     font-size: 40px;
+    line-height: 1.2;
 }
 /* padding */
 .py-1 {padding: 10px 0px}
@@ -75,7 +76,7 @@ p{
     color: #fff;
     text-decoration: none;
 }
-#navbar h1{
+#navbar .logo{
     float: left;
     padding: 20px;
     margin-left: -40px;
@@ -104,7 +105,7 @@ p{
 #showcase .showcase-content{
     color: #fff;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 170px;
 }
 #showcase .showcase-content h1{
     font-size: 60px;
@@ -115,7 +116,7 @@ p{
     line-height: 1.7em;
 }
 #home-info{
-    height: 400px;
+    height: 450px;
 }
 #home-info .info-img{
     float: left;
@@ -166,7 +167,7 @@ p{
 
 /* testimonaials */
 #testimonials{
-    height: 600px;
+    height: 100%;
     background: url('../image_resources/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
